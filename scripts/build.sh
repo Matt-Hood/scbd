@@ -19,6 +19,7 @@ fi
 CMD=$@
 # Default to run "site:build" if no commands provided.
 if [ -z "${CMD}" ]; then
+#  CMD="site:build -Dexisting_config"
   CMD="site:build"
 fi
 
