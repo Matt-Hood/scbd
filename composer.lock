@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aee6388aa97ad0f08ec4a1253eb1ec5a",
+    "content-hash": "179669aeca7eba965503868dba99b34f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2198,6 +2198,76 @@
             "homepage": "https://www.drupal.org/project/bootstrap_barrio",
             "support": {
                 "source": "https://git.drupalcode.org/project/bootstrap_barrio"
+            }
+        },
+        {
+            "name": "drupal/cheeseburger_menu",
+            "version": "5.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cheeseburger_menu.git",
+                "reference": "5.0.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cheeseburger_menu-5.0.0-rc1.zip",
+                "reference": "5.0.0-rc1",
+                "shasum": "8707bcef5456158644217bf56299d1357c30d54d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "5.0.0-rc1",
+                    "datestamp": "1638956491",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "DavorHorvacki",
+                    "homepage": "https://www.drupal.org/user/3566953"
+                },
+                {
+                    "name": "aleksandar.boros.gyevi",
+                    "homepage": "https://www.drupal.org/user/316083"
+                },
+                {
+                    "name": "gnikolovski",
+                    "homepage": "https://www.drupal.org/user/3451979"
+                },
+                {
+                    "name": "jvince",
+                    "homepage": "https://www.drupal.org/user/3452557"
+                },
+                {
+                    "name": "malatenszki",
+                    "homepage": "https://www.drupal.org/user/3452551"
+                },
+                {
+                    "name": "martina.s",
+                    "homepage": "https://www.drupal.org/user/3669244"
+                }
+            ],
+            "description": "This block is displaying the main menu and its child items in an ordered list",
+            "homepage": "https://www.drupal.org/project/cheeseburger_menu",
+            "keywords": [
+                "cheeseburger",
+                "hamburger",
+                "menu"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/cheeseburger_menu",
+                "issues": "https://www.drupal.org/project/issues/cheeseburger_menu"
             }
         },
         {
@@ -18606,6 +18676,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/cheeseburger_menu": 5,
         "drupal/core-recommended": 0,
         "mediacurrent/rain_admin": 10,
         "mediacurrent/rain_demo": 10,

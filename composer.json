@@ -25,6 +25,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/bootstrap": "^3.23",
         "drupal/bootstrap_barrio": "^5.5",
+        "drupal/cheeseburger_menu": "^5.0@RC",
         "drupal/coder": "^8.3",
         "drupal/colorbox": "^1.8",
         "drupal/core-composer-scaffold": "^9.0",
