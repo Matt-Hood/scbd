@@ -33,7 +33,6 @@
         "drupal/guardr_core": "^2.0",
         "drupal/imce": "^2.4",
         "drupal/jquery_ui": "^1.4",
-        "drupal/stage_file_proxy": "^1.2",
         "drupal/svg_image": "^1.16",
         "drupal/views_html_tags": "^2.0",
         "drupal/webform": "^6.1",

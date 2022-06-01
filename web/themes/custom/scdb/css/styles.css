@@ -4,26 +4,36 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+  overflow-x: hidden;
   }
 
 .navbar-brand img {
-  width: 50%;
+background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 #header {
-	position: absolute;
+	position: sticky !important;
+  top: 0;
 	width: 100%;
 	background: #fff;
 	z-index: 44;
 	box-shadow: 3px 2px 3px rgb(0,0,0,0.4);
+  max-height: 115px;
 }
-
+#header .navbar {
+  max-height: 115px;
+}
+#block-scbd-breadcrumbs {
+  display: none;
+}
 #header > .container {
   display: flex;
+  max-width: 1600px;
 }
 
 #navbar-main {
   flex-grow: 1;
 }
+
 
 .sl_d {
 	position: relative;
@@ -624,7 +634,7 @@ color: #ff1744;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5vw;
+  font-size: 8vw;
   -webkit-animation-name: wave;
   animation-name: wave;
   -webkit-animation-iteration-count: infinite;
@@ -633,6 +643,7 @@ color: #ff1744;
   animation-timing-function: ease-in-out;
   font-family: "Righteous", cursive;
   -webkit-text-stroke-width: 5px;
+  width: 100%;
 
 }
 
@@ -679,5 +690,38 @@ color: #ff1744;
   }
   0%, 90%, 100% {
     transform: translate(-50%, -45%) scale(0.95);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+.sl_dtxt h2 {
+  margin-top: 10rem;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    padding: 0.5rem 6px;
+  }
+  .navbar-brand img {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #block-scbd-page-title {
+    margin-top: 7rem;
+  }
+ .navbar-nav {
+    flex-direction: row;
+   gap: 2rem;
   }
 }
